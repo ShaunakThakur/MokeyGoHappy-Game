@@ -9,10 +9,10 @@ var ground, fakeGround;
 var survivalTime = 0;
 
 function preload() {
-  monkey_running = loadAnimation("sprite_0.png", "sprite_1.png", "sprite_2.png", "sprite_3.png", "sprite_4.png", "sprite_5.png", "sprite_6.png", "sprite_7.png", "sprite_8.png")
+  monkey_running = loadAnimation("resources/images/sprite_0.png", "resources/images/sprite_1.png", "resources/images/sprite_2.png", "resources/images/sprite_3.png", "resources/images/sprite_4.png", "resources/images/sprite_5.png", "resources/images/sprite_6.png", "resources/images/sprite_7.png", "resources/images/sprite_8.png")
 
-  bananaImage = loadImage("banana.png");
-  obstaceImage = loadImage("obstacle.png");
+  bananaImage = loadImage("resources/images/banana.png");
+  obstaceImage = loadImage("resources/images/obstacle.png");
 }
 
 function setup() {
